@@ -1,35 +1,35 @@
 .App {
-  padding: 30px;
-  display: flex;
+    padding: 30px;
+    display: flex;
 }
 
 .App > div {
-  margin-right: 50px;
+    margin-right: 50px;
 }
 
 .todolist {
-  background-color: white;
-  border: 2px solid gray;
-  border-radius: 5px;
-  padding: 15px;
+    background-color: #98d598;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 15px;
 }
 
-.completedTask {
-  opacity: 0.5;
-  text-decoration: line-through;
+.task-complete {
+    text-decoration: line-through;
+    opacity: 0.5;
 }
 
-/*.task {*/
-/*  font-weight: bold;*/
-/*}*/
-
-.activeFilter {
-  background-color: #ff7ec2;
-  border-radius: 3px;
-  border: 2px solid #ff7ec2;
+.task {
+    font-weight: bold;
 }
+.button-active{
+    background-color: cornflowerblue;
+    color: lavender;
+    border-radius: 4px;
+    border: 2px solid cornflowerblue;
 
-.taskInputError {
-  border: 2px solid red;
-  outline: none;
+}
+.taskInputError{
+    border: 2px solid red;
+    outline: none;
 }
